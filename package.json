@@ -1,0 +1,22 @@
+{
+  "name": "reactron",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pika pack"
+  },
+  "author": "",
+  "license": "ISC",
+  "@pika/pack": {
+    "pipeline": [
+      [
+        "@pika/plugin-standard-pkg"
+      ]
+    ]
+  },
+  "devDependencies": {
+    "@pika/pack": "^0.5.0",
+    "@pika/plugin-standard-pkg": "^0.9.2"
+  }
+}
